@@ -1,0 +1,106 @@
+body {
+    background-color: #0D0D0D;
+    color: #F9F6F6;
+    overflow: hidden;
+    padding-left: 58px;
+}
+
+li {
+    list-style: none;
+}
+
+
+.loading {
+    z-index: 9999;
+    display: flex;
+}
+
+.loading-data {
+    z-index: 9;
+    display: flex;
+}
+
+.fa-spinner {
+    font-size: 70px;
+}
+
+
+.nav-footer-icon i {
+    cursor: pointer;
+}
+
+.links li {
+    cursor: pointer;
+}
+
+.img {
+    width: 50px;
+}
+
+aside {
+    z-index: 999;
+    background-color: #0D0D0D;
+}
+
+.layer {
+    background-color: rgba(249, 246, 239, 0.8);
+    width: 100%;
+    height: 100%;
+    top: 100%;
+}
+
+.card {
+    background-color: inherit;
+    cursor: pointer;
+}
+
+.layer {
+    transition: 0.5s;
+}
+
+.card:hover .layer {
+    top: 0;
+}
+
+
+.search .form-control {
+    background-color: inherit;
+    color: white;
+}
+
+.form-control::-webkit-input-placeholder {
+    color: #747474;
+}
+
+.search {
+    position: relative;
+    z-index: 99;
+}
+
+.search .form-control:focus {
+    background-color: inherit;
+    color: white;
+}
+
+
+.main-icon {
+    font-size: 65px;
+
+}
+
+
+.recipes {
+    background-color: #CFF4FC;
+    color: #055160;
+    width: fit-content;
+}
+
+.tags {
+    background-color: #F8D7DA;
+    color: #842029;
+    width: fit-content;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
